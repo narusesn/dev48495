@@ -25,7 +25,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="connection_attributes" name="connection_attributes" sys_domain="global" view="Default view">0068c9eb4f82230021b69acf9310c73c</sys_ui_form>
-            <sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="connection_attributes" sys_domain="global" view="Default view">0868c9eb4f82230021b69acf9310c73e</sys_ui_section>
+            <sys_ui_section caption="Reference Specification" display_value="参照仕様" name="connection_attributes" sys_domain="global" view="Default view">0868c9eb4f82230021b69acf9310c73e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-12-04 06:56:41</sys_updated_on>
         </sys_ui_form_section>
@@ -39,7 +39,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="connection_attributes" name="connection_attributes" sys_domain="global" view="Default view">0068c9eb4f82230021b69acf9310c73c</sys_ui_form>
-            <sys_ui_section caption="Choice List Specification" display_value="Choice List Specification" name="connection_attributes" sys_domain="global" view="Default view">cc68856f4f82230021b69acf9310c754</sys_ui_section>
+            <sys_ui_section caption="Choice List Specification" display_value="選択肢リストの仕様" name="connection_attributes" sys_domain="global" view="Default view">cc68856f4f82230021b69acf9310c754</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-12-04 06:56:41</sys_updated_on>
         </sys_ui_form_section>
@@ -53,7 +53,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="connection_attributes" name="connection_attributes" sys_domain="global" view="Default view">0068c9eb4f82230021b69acf9310c73c</sys_ui_form>
-            <sys_ui_section caption="Default Value" display_value="Default Value" name="connection_attributes" sys_domain="global" view="Default view">0068c9eb4f82230021b69acf9310c744</sys_ui_section>
+            <sys_ui_section caption="Default Value" display_value="デフォルト値" name="connection_attributes" sys_domain="global" view="Default view">0068c9eb4f82230021b69acf9310c744</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-12-04 06:56:41</sys_updated_on>
         </sys_ui_form_section>
@@ -76,7 +76,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-12-04 06:56:41</sys_updated_on>
             <sys_user/>
-            <view display_value="Default view" name="NULL">Default view</view>
+            <view display_value="デフォルトビュー" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_form>
     </sys_ui_form_sections>

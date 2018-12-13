@@ -14,7 +14,7 @@
         <roles/>
         <script><![CDATA[(function process(g_request, g_response, g_processor) {
 	
-	//
+	//0000000000000000000
 	var parm = {};
 	parm.p1 = g_request.getParameter('p1');
 	parm.p2 = g_request.getParameter('p2');
@@ -48,14 +48,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-11 04:51:36</sys_created_on>
         <sys_id>dfbe60f94f52230021b69acf9310c7cd</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>test_process</sys_name>
         <sys_package display_value="test20181204" source="x_205171_test20181">a2f6852f4f82230021b69acf9310c71b</sys_package>
         <sys_policy/>
         <sys_scope display_value="test20181204">a2f6852f4f82230021b69acf9310c71b</sys_scope>
         <sys_update_name>sys_processor_dfbe60f94f52230021b69acf9310c7cd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-13 09:15:48</sys_updated_on>
+        <sys_updated_on>2018-12-13 10:33:53</sys_updated_on>
         <type>script</type>
     </sys_processor>
 </record_update>

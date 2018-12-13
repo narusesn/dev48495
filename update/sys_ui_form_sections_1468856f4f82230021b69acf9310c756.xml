@@ -25,7 +25,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="connection_attributes" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">1468856f4f82230021b69acf9310c756</sys_ui_form>
-            <sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">5468856f4f82230021b69acf9310c75f</sys_ui_section>
+            <sys_ui_section caption="Reference Specification" display_value="参照仕様" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">5468856f4f82230021b69acf9310c75f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-12-04 06:56:42</sys_updated_on>
         </sys_ui_form_section>
@@ -39,7 +39,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="connection_attributes" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">1468856f4f82230021b69acf9310c756</sys_ui_form>
-            <sys_ui_section caption="Choice List Specification" display_value="Choice List Specification" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">5c68856f4f82230021b69acf9310c757</sys_ui_section>
+            <sys_ui_section caption="Choice List Specification" display_value="選択肢リストの仕様" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">5c68856f4f82230021b69acf9310c757</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-12-04 06:56:41</sys_updated_on>
         </sys_ui_form_section>
@@ -53,7 +53,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="connection_attributes" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">1468856f4f82230021b69acf9310c756</sys_ui_form>
-            <sys_ui_section caption="Dependent Field" display_value="Dependent Field" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">1468856f4f82230021b69acf9310c759</sys_ui_section>
+            <sys_ui_section caption="Dependent Field" display_value="依存フィールド" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">1468856f4f82230021b69acf9310c759</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-12-04 06:56:41</sys_updated_on>
         </sys_ui_form_section>
@@ -67,7 +67,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="connection_attributes" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">1468856f4f82230021b69acf9310c756</sys_ui_form>
-            <sys_ui_section caption="Calculated Value" display_value="Calculated Value" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">d868856f4f82230021b69acf9310c75a</sys_ui_section>
+            <sys_ui_section caption="Calculated Value" display_value="計算された値" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">d868856f4f82230021b69acf9310c75a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-12-04 06:56:41</sys_updated_on>
         </sys_ui_form_section>
@@ -81,7 +81,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="connection_attributes" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">1468856f4f82230021b69acf9310c756</sys_ui_form>
-            <sys_ui_section caption="Default Value" display_value="Default Value" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">9068856f4f82230021b69acf9310c762</sys_ui_section>
+            <sys_ui_section caption="Default Value" display_value="デフォルト値" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">9068856f4f82230021b69acf9310c762</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-12-04 06:56:42</sys_updated_on>
         </sys_ui_form_section>
@@ -104,7 +104,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-12-04 06:56:41</sys_updated_on>
             <sys_user/>
-            <view display_value="Advanced" name="advanced">7966be310a0a0b8c00bd504090503227</view>
+            <view display_value="詳細" name="advanced">7966be310a0a0b8c00bd504090503227</view>
             <view_name/>
         </sys_ui_form>
     </sys_ui_form_sections>
