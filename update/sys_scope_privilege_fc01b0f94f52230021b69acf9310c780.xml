@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>read</operation>
+        <source_scope display_value="test20181204">a2f6852f4f82230021b69acf9310c71b</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-11 05:00:55</sys_created_on>
+        <sys_id>fc01b0f94f52230021b69acf9310c780</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fm_expense_line</sys_name>
+        <sys_package display_value="test20181204" source="x_205171_test20181">a2f6852f4f82230021b69acf9310c71b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test20181204">a2f6852f4f82230021b69acf9310c71b</sys_scope>
+        <sys_update_name>sys_scope_privilege_fc01b0f94f52230021b69acf9310c780</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-11 05:00:55</sys_updated_on>
+        <target_name>fm_expense_line</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+</record_update>

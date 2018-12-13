@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application/>
+        <key>ssss</key>
+        <language>ja</language>
+        <message>てすと</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-06 07:30:38</sys_created_on>
+        <sys_id>81432fc84f12230021b69acf9310c71a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ssss</sys_name>
+        <sys_package display_value="test20181204" source="x_205171_test20181">a2f6852f4f82230021b69acf9310c71b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test20181204">a2f6852f4f82230021b69acf9310c71b</sys_scope>
+        <sys_update_name>sys_ui_message_81432fc84f12230021b69acf9310c71a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-06 07:30:38</sys_updated_on>
+    </sys_ui_message>
+</record_update>

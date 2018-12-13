@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {
+  /* widget controller */
+  var c = this;
+    //c.data.loading = true;
+    //
+    //$scope.server.update().then(function(){
+     //   c.data.loading = false;
+    //})
+
+
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list>title,color</field_list>
+        <has_preview>true</has_preview>
+        <id>widgets-test</id>
+        <internal>false</internal>
+        <link/>
+        <name>widgets_test</name>
+        <option_schema>[{"name":"table","section":"other","default_value":"incident","label":"Table","type":"string"},{"name":"template","section":"other","default_value":"leave empty","label":"Template","type":"string"}]</option_schema>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+        /* populate the 'data' object */
+        /* e.g., data.table = $sp.getValue('table'); */
+
+        //define the variable to hold our list	
+        data.list = [];
+
+        //Query the table
+        var gr = new GlideRecord('incident');
+        gr.addQuery('active', true);
+        gr.query()
+        while (gr.next()) {
+            //load values into object
+            var record_obj = {};
+            record_obj.number = gr.number.getDisplayValue();
+            record_obj.short_description = gr.short_description.getDisplayValue();
+            record_obj.priority = gr.priority.getDisplayValue();
+            record_obj.category = gr.category.getDisplayValue();
+            //add object to the list  
+            data.list.push(record_obj);
+        }
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-11 06:01:42</sys_created_on>
+        <sys_id>cfee30bd4f52230021b69acf9310c7de</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>widgets_test</sys_name>
+        <sys_package display_value="test20181204" source="x_205171_test20181">a2f6852f4f82230021b69acf9310c71b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test20181204">a2f6852f4f82230021b69acf9310c71b</sys_scope>
+        <sys_update_name>sp_widget_cfee30bd4f52230021b69acf9310c7de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-12 02:27:30</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-default">
+<!-- your widget template -->
+<div class="panel-heading">
+    K18 List Widget
+</div>
+<div class="panel-body">
+<span ng-if="c.data.loading"><i  class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
+    <span class="sr-only">Loading...</span></span>
+    <ul class="list-group">
+<li class="list-group-item" ng-repeat="item in c.data.list" ng-include="'task-category'"></li>
+</ul>
+    </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

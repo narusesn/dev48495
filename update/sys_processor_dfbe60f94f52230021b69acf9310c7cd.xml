@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_processor">
+    <sys_processor action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <description/>
+        <interactive>false</interactive>
+        <name>test_process</name>
+        <parameters>p1</parameters>
+        <params_endpoint>x_205171_test20181_p1</params_endpoint>
+        <path>test_process</path>
+        <path_endpoint>x_205171_test20181_test_process</path_endpoint>
+        <require_csrf>false</require_csrf>
+        <roles/>
+        <script><![CDATA[(function process(g_request, g_response, g_processor) {
+	
+	
+	var parm = {};
+	parm.p1 = g_request.getParameter('p1');
+	parm.p2 = g_request.getParameter('p2');
+	parm.p3 = g_request.getParameter('p3');
+	parm.p4 = g_request.getParameter('p4');
+	parm.p5 = g_request.getParameter('p5');
+	parm.fixedQuery = g_request.getParameter('fixed_query');
+	parm.query = g_request.getParameter('query');
+	
+	gs.info('parm.p1:'+parm.p1);
+	gs.info('parm.p2:'+parm.p2);
+	gs.info('parm.p3:'+parm.p3);
+	gs.info('parm:'+parm);
+	
+	var file='';
+	
+	var recs = new GlideRecord('fm_expense_line');
+	recs.addEncodedQuery(parm.fixedQuery + '^' + parm.query );
+	recs.query();
+	while(recs.next()){
+		file += '\"'+ parm.p1+ '\",\"'+ parm.p2 +'\",\"'+ recs.getValue('date') + '\",\"' + recs.getValue('amount') + '\",\"' + 
+			parm.p3 + '\",\"' + parm.p4 + '\",\"' +
+			recs.source_id.number + ' ' + recs.short_description + ' ' +
+			recs.source_id.short_description + '\",\"' + parm.p5 +'\"\n';
+	}
+	g_response.setContentType('text/comma-separated-values');
+	g_processor.writeOutput(file);
+	
+})(g_request, g_response, g_processor);]]></script>
+        <sys_class_name>sys_processor</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-11 04:51:36</sys_created_on>
+        <sys_id>dfbe60f94f52230021b69acf9310c7cd</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>test_process</sys_name>
+        <sys_package display_value="test20181204" source="x_205171_test20181">a2f6852f4f82230021b69acf9310c71b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test20181204">a2f6852f4f82230021b69acf9310c71b</sys_scope>
+        <sys_update_name>sys_processor_dfbe60f94f52230021b69acf9310c7cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-11 05:20:54</sys_updated_on>
+        <type>script</type>
+    </sys_processor>
+</record_update>

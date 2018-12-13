@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_ng_template">
+    <sp_ng_template action="INSERT_OR_UPDATE">
+        <id>task-category</id>
+        <sp_widget display_value="widgets_test">cfee30bd4f52230021b69acf9310c7de</sp_widget>
+        <sys_class_name>sp_ng_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-11 06:29:00</sys_created_on>
+        <sys_id>e42589394f92230021b69acf9310c7ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>task-category</sys_name>
+        <sys_package display_value="test20181204" source="x_205171_test20181">a2f6852f4f82230021b69acf9310c71b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test20181204">a2f6852f4f82230021b69acf9310c71b</sys_scope>
+        <sys_update_name>sp_ng_template_e42589394f92230021b69acf9310c7ac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-11 06:29:00</sys_updated_on>
+        <template><![CDATA[<span>{{item.number}} - {{item.short_description}} - {{item.category}}</span>]]></template>
+    </sp_ng_template>
+</record_update>

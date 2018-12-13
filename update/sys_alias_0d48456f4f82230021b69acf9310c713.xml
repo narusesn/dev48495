@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_alias">
+    <sys_alias action="INSERT_OR_UPDATE">
+        <connection_type>http_connection</connection_type>
+        <id>x_205171_test20181.naruse_test</id>
+        <multiple_connections>true</multiple_connections>
+        <name>naruse_test</name>
+        <sys_class_name>sys_alias</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-04 06:56:30</sys_created_on>
+        <sys_id>0d48456f4f82230021b69acf9310c713</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_205171_test20181.naruse_test</sys_name>
+        <sys_package display_value="test20181204" source="x_205171_test20181">a2f6852f4f82230021b69acf9310c71b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test20181204">a2f6852f4f82230021b69acf9310c71b</sys_scope>
+        <sys_update_name>sys_alias_0d48456f4f82230021b69acf9310c713</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-04 06:56:30</sys_updated_on>
+        <type>connection</type>
+    </sys_alias>
+</record_update>
